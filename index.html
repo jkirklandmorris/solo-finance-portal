@@ -1,17 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>solo-finance-portal</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-    <meta property="og:image" content="/og-image.png" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solo Finance Portal</title>
+  <!-- Improved meta tags for performance and mobile experience -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Hero Section with clear headline, subheadline, and prominent CTA -->
+  <header class="hero">
+    <div class="container">
+      <h1>Solo Finance Portal</h1>
+      <p class="subheadline">
+        Streamline your finances effortlessly with powerful insights and secure management tools.
+      </p>
+      <a href="#signup" class="cta-button">Get Started</a>
+    </div>
+  </header>
 
-  <body>
-    <div id="root"></div>
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <!-- Features Section to communicate key benefits -->
+  <section class="features">
+    <div class="container">
+      <h2>Why Choose Solo Finance?</h2>
+      <ul>
+        <li>Intuitive dashboard to track your finances</li>
+        <li>Robust security measures to protect your data</li>
+        <li>Actionable insights for financial growth</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Trust Section with logos and testimonials for credibility -->
+  <section class="trust">
+    <div class="container">
+      <h2>Trusted By</h2>
+      <div class="logos">
+        <!-- Replace with your actual logo images -->
+        <img src="images/logo1.png" alt="Partner 1">
+        <img src="images/logo2.png" alt="Partner 2">
+      </div>
+      <div class="testimonials">
+        <blockquote>
+          <p>"Solo Finance Portal has transformed how I manage my finances!"</p>
+          <footer>— Alex, Entrepreneur</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Signup Section with another clear CTA -->
+  <section id="signup" class="signup">
+    <div class="container">
+      <h2>Join Today</h2>
+      <form action="/signup" method="post">
+        <input type="email" name="email" placeholder="Your Email" required>
+        <button type="submit" class="cta-button">Sign Up Free</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Solo Finance Portal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
